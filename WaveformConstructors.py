@@ -1,5 +1,5 @@
 import math
-from matplotlib import pyplot as plt
+#from matplotlib import pyplot as plt
 from MozziWavetableConstructor import constructor
 
 def sinewaveTable(tableSize, freq, amplitude):
@@ -42,11 +42,11 @@ def harmonicSeriesTable(f, o, n, fundamental):
     w = [x for x in wf]
 
     print(w)
-    plt.plot(w)
-    plt.title(f"{str(f)}n{str(o)}")
-    plt.show()
+    #plt.plot(w)
+    #plt.title(f"{str(f)}n{str(o)}")
+    #plt.show()
 
-    # constructor(w, f"z{str(f)}n{str(o)}_{nameEnd}")
+    constructor(w, f"z{str(f)}n{str(o)}_{nameEnd}")
 
 
 
